@@ -1,0 +1,127 @@
+Mbappe;
+import java.util.Scanner;
+public class Mbappe {
+public static void main(String[] args) {
+System.out.println("Welcome to the politics quiz to check whether you lean to the right or to the left if you're an undecided voter.");
+System.out.println("The rules are you will answer 15 questions and depending on how you answer you answer you be given a score.");
+System.out.println("If it's a low score it means you lean right, and if it's a positive score you lean left. ");
+System.out.println("But if its a score of 5 it means you're neutral");
+System.out.println("Type a for yes, b for no");
+System.out.println();
+System.out.println("Type Chu2024 to start: " );
+try (Scanner sc = new Scanner(System.in)) {
+Scanner name =new Scanner(System.in);
+String status = sc.nextLine();
+if(status.compareTo("Chu2024")==0) {
+}
+Scanner type = new Scanner(System.in);
+int score=0;
+String q1= "Do you support universal healthcare?\n"
++"(a)yes\n(b)no\n";
+System.out.println(q1);
+String ans1=type.nextLine();
+if(ans1.equals("a")){
+score++;
+}
+String q2= "Do you support American interference overseas?\n"
++"(a)yes\n(b)no\n";
+System.out.println(q2);
+String ans2=type.nextLine();
+if(ans2.equals("b")){
+score++;
+}
+String q3= "Do you support abortion?\n"
++"(a)yes\n(b)no\n";
+System.out.println(q3);
+String ans3=type.nextLine();
+if(ans3.equals("a")){
+score++;
+}
+String q4= "Do you think Trump was a criminal?\n"
++"(a)yes\n(b)no\n";
+System.out.println(q4);
+
+String ans4=type.nextLine();
+if(ans4.equals("a")){
+score++;
+}
+String q5= "Do you support climate support from the government?\n"
++"(a)yes\n(b)no\n";
+System.out.println(q5);
+String ans5=type.nextLine();
+if(ans5.equals("a")){
+score++;
+}
+String q6= "Do you support student loan relief?\n"
++"(a)yes\n(b)no\n";
+System.out.println(q6);
+String ans6=type.nextLine();
+if(ans6.equals("a")){
+score++;
+}
+String q7= "Should we support more global trade over Local trade?\n"
++"(a)yes\n(b)no\n";
+System.out.println(q7);
+String ans7=type.nextLine();
+if(ans7.equals("a")){
+score++;
+}
+String q8= "Are you pro or anti vaxx?\n"
++"(a)Pro\n(b)Anti\n";
+System.out.println(q8);
+String ans8=type.nextLine();
+if(ans8.equals("a")){
+score++;
+}
+String q9= "Is Joe Biden too stupid and old?\n"
++"(a)yes\n(b)no\n";
+System.out.println(q9);
+String ans9=type.nextLine();
+if(ans9.equals("b")){
+score++;
+}
+String q10= "Do you support separation of church and state?\n"
++"(a)yes\n(b)no\n";
+System.out.println(q10);
+String ans10=type.nextLine();
+if(ans10.equals("a")){
+
+score++;
+}
+System.out.println("You have scored:"+score+"/10");
+if (score==0) {
+System.out.print("Leans strong R");
+}
+if (score==1) {
+System.out.print("Leans high R");
+}
+if (score==2) {
+System.out.print("Leans hefty R");
+}
+if (score==3) {
+System.out.print("Leans Decent R");
+}
+if (score==4) {
+System.out.print("Leans weak R");
+}
+if (score==5) {
+System.out.print("Neutral");
+}
+if (score==6) {
+System.out.print("Leans weak D");
+}
+if (score==7) {
+System.out.print("Leans Decent D");
+}
+if (score==8) {
+System.out.print("Leans Hefty D");
+}
+if (score==9) {
+System.out.print("Leans High D");
+}
+if (score==10) {
+System.out.print("Leans strong D");
+}
+}
+}
+}
